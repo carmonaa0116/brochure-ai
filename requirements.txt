@@ -1,0 +1,24 @@
+# Scraping estático
+requests==2.31.0
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# Scraping dinámico (fallback para SPAs)
+playwright==1.41.0
+# Alternativa: selenium==4.16.0
+
+# LLM - Gemini
+google-genai>=0.2.0
+
+# Gestión de entorno
+python-dotenv==1.0.0
+
+# Exportación a HTML/PDF
+markdown==3.5.2
+# weasyprint==60.2
+# Alternativa PDF: pdfkit==1.0.0
+
+# Utilidades
+urllib3==2.1.0
+
+tqdm==4.66.1
